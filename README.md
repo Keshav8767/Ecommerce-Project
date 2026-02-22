@@ -23,7 +23,6 @@ This project is a full-stack e-commerce platform designed to provide a seamless 
 
 ## ✨ Features
 
-- **User Authentication**: Secure user registration and login system
 - **Product Management**: Browse and filter products with detailed information
 - **Shopping Cart**: Add, remove, and manage items in your cart
 - **Order Processing**: Streamlined checkout and order placement
@@ -43,19 +42,15 @@ Ecommerce-Project/
 Server-side application handling business logic, database operations, and API endpoints.
 
 **Key Components:**
-- User authentication and authorization
 - Product catalog management
 - Order processing and management
-- Database integration
 
 ### Frontend (`ecommerce-project/`)
 Client-side application providing user interface and interaction.
 
 **Key Components:**
-- Product listing and details pages
 - Shopping cart functionality
 - Checkout process
-- User account management
 - Responsive UI components
 
 ## 🛠️ Tech Stack
@@ -63,27 +58,24 @@ Client-side application providing user interface and interaction.
 ### Backend
 - **Runtime**: Node.js
 - **Language**: JavaScript
-- **Framework**: Express.js (or similar)
-- **Database**: (Specify your database - MongoDB, PostgreSQL, MySQL, etc.)
 
 ### Frontend
 - **Language**: JavaScript
-- **Framework**: React, Vue.js, or similar (specify your choice)
-- **Styling**: CSS3, Tailwind CSS, or Bootstrap (specify your choice)
+- **Framework**: React
+- **Styling**: CSS
 - **HTTP Client**: Axios or Fetch API
 
 ### Additional Tools
 - Git for version control
-- npm/yarn for package management
+- npm for package management
 
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
 - **Node.js** (v14.0.0 or higher)
-- **npm** (v6.0.0 or higher) or **yarn** (v1.22.0 or higher)
+- **npm** (v6.0.0 or higher)
 - **Git** for cloning the repository
-- (If using a database) Database client/server setup
 
 ## 💻 Installation
 
@@ -110,39 +102,22 @@ npm install
 
 ## 🚀 Getting Started
 
-### 1. Configure Environment Variables
-
-Create a `.env` file in the `ecommerce-backend` directory:
-
-```env
-PORT=5000
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
-```
-
-Create a `.env` file in the `ecommerce-project` directory:
-
-```env
-REACT_APP_API_URL=http://localhost:5000
-```
-
-### 2. Start the Backend Server
+### 1. Start the Backend Server
 
 ```bash
 cd ecommerce-backend
-npm start
+npm run dev
 ```
 
 The backend will be running on `http://localhost:5000`
 
-### 3. Start the Frontend Application
+### 2. Start the Frontend Application
 
 In a new terminal:
 
 ```bash
 cd ecommerce-project
-npm start
+npm run dev
 ```
 
 The frontend will be running on `http://localhost:3000`
@@ -152,10 +127,9 @@ The frontend will be running on `http://localhost:3000`
 ### Accessing the Application
 
 1. Open your browser and navigate to `http://localhost:3000`
-2. Create a new account or log in with existing credentials
-3. Browse products and add items to your cart
-4. Proceed to checkout and place your order
-5. View your order history in the account section
+2. Browse products and add items to your cart
+3. Proceed to checkout and place your order
+4. View your order history in the account section
 
 ### API Endpoints (Backend)
 
@@ -168,8 +142,6 @@ Common endpoints include:
 - `POST /api/cart` - Add to cart
 - `POST /api/orders` - Create new order
 - `GET /api/orders` - Get user orders
-
-*For detailed API documentation, refer to the backend README or API documentation file.*
 
 ## 📂 Project Structure Details
 
@@ -213,10 +185,6 @@ We welcome contributions! Please follow these steps:
 5. Open a Pull Request
 
 Please ensure your code follows the project's code style and includes appropriate comments.
-
-## 📄 License
-
-This project is currently unlicensed. If you plan to use or contribute to this project, please consider adding an appropriate license (MIT, Apache 2.0, GPL, etc.).
 
 ## 🆘 Support
 
