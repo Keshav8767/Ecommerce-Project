@@ -122,6 +122,11 @@ npm run dev
 
 The frontend will be running on `http://localhost:3000`
 
+## 🌐 Live Deployment
+
+The application is currently deployed on AWS Elastic Beanstalk and can be accessed at:
+- **Live URL**: [http://ecommerce-project-react-env.eba-vtjeacdk.ap-south-1.elasticbeanstalk.com/](http://ecommerce-project-react-env.eba-vtjeacdk.ap-south-1.elasticbeanstalk.com/)
+
 ## 📖 Usage
 
 ### Accessing the Application
